@@ -11,6 +11,6 @@ func main() {
 }
 
 func HelloServer(w http.ResponseWriter, r *http.Request) {
-    str := "This is a Golang example\nPlease, select a valid repository"
+    str := "This is a Golang example\nPlease, select a valid repository changing the LAUNCHER_TARGET_REPO value"
     fmt.Fprintf(w, str)
 }
