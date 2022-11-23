@@ -5,5 +5,5 @@ application:
   language: go
   ports:
   - port: 8080
-    service: true
+    ingress: true
     ingressPath: /
