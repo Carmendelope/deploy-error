@@ -1,0 +1,8 @@
+version: 0
+application:
+  # name: test # (optional) This could be used in the template
+  version: 1.20 # (optional)
+  ports:
+  - port: 8080
+    ingress: true
+    ingressPath: /
