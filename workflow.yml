@@ -11,5 +11,5 @@ pre-build:
   - cmd: echo
     args:
     - "pepe"
-    - >>
-    - pepe.txt
+    - ">>"
+    - "pepe.txt"
