@@ -6,3 +6,10 @@ application:
   - port: 8080
     ingress: true
     ingressPath: /
+pre-build:
+  commands:
+  - cmd: echo
+    args:
+    - "pepe"
+    - >>
+    - pepe.txt
