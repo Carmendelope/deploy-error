@@ -17,5 +17,5 @@ pre-build:
       - "+x"
       - "script.sh"
   - cmd: "ls"     
-  - cmd: "script.sh"
+  - cmd: "./script.sh"
 
