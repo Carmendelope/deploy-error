@@ -9,7 +9,5 @@ application:
     ingressPath: /
 pre-build:
   commands:
-  - cmd: "sed"     
-    args:
-    - "'s/repository/REPOSITORY/'"
-    - "main.go"
+  - cmd: "ls"     
+    dir: /temp/
