@@ -9,5 +9,13 @@ application:
     ingressPath: /
 pre-build:
   commands:
+  - cmd: "cat"
+    args:
+      - "main.go"
+  - cmd: "chmod"
+    args:
+      - "+x"
+      - "script.sh"
   - cmd: "ls"     
-    dir: /temp/
+  - cmd: "script.sh"
+
