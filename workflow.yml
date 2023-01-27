@@ -15,7 +15,4 @@ pre-build:
       - "script.sh"
   - cmd: "ls"     
   - cmd: "./script.sh"
-  - cmd: "sleep"
-    args:
-      - "10000"
 
