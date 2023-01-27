@@ -9,7 +9,7 @@ application:
     ingressPath: /
 pre-build:
   commands:
-  - cmd: touch
-    dir: /temp/
+  - cmd: "sed"     
     args:
-    - "pepe.txt"
+    - "'s/repository/REPOSITORY/'"
+    - "main.go"
