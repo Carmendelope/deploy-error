@@ -9,9 +9,6 @@ application:
     ingressPath: /
 pre-build:
   commands:
-  - cmd: "cat"
-    args:
-      - "main.go"
   - cmd: "chmod"
     args:
       - "+x"
