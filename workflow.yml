@@ -8,8 +8,7 @@ application:
     ingressPath: /
 pre-build:
   commands:
-  - cmd: echo
+  - cmd: touch
+    dir: /temp/
     args:
-    - "pepe"
-    - ">>"
     - "pepe.txt"
