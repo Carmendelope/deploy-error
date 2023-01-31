@@ -1,18 +1,18 @@
 version: 0
 application:
-  # name: carmen # (optional) This could be used in the template
-  version: 1.20 # (optional)
-  # language: go
-  ports:
-  - port: 8080
-    ingress: true
-    ingressPath: /
+# name: carmen # (optional) This could be used in the template
+version: 1.20 # (optional)
+# language: go
+ports:
+- port: 8080
+ingress: true
+ingressPath: /
 pre-build:
-  commands:
-  - cmd: "chmod"
-    args:
-      - "+x"
-      - "script.sh"
-  - cmd: "ls"     
-  - cmd: "./script.sh"
+commands:
+- cmd: "chmod"
+args:
+- "+x"
+- "script.sh"
+- cmd: "ls"     
+- cmd: "./script.sh"
 
